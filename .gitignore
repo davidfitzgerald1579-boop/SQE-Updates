@@ -1,0 +1,21 @@
+# IDE and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Supabase CLI state and local-only artifacts
+supabase/.branches/
+supabase/.temp/
+
+# Test and build artifacts anywhere in the repository
+**/coverage/
+**/.next/
+**/node_modules/
+**/out/
+**/*.tsbuildinfo
